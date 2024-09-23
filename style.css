@@ -3,24 +3,64 @@
     padding: 0;
 }
 body{
-    background-color: rgb(6, 6, 48);
-}
-nav{
-    display: flex;
-    height: 130px;
-    background-color: rgb(11, 11, 88);
+    background-color: rgb(0,0,33);
     color: white;
-    justify-content: space-around;
+    font-family: 'Poppins',sans-serif;
 }
 
-.navList{
+nav{
     display: flex;
-    margin: 0 25px;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(11, 11, 57);
 }
-.listItems{
+nav ul{
     display: flex;
-    list-style-type: none;
-    margin-right: 20px;
-    gap: 10px;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
     
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(153,153,226);
+    font-size: 1.04rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0 ;
+}
+
+.firstSection > div{
+    width: 40%;
+}
+.leftSection{
+    font-size: 2.5rem;
+}
+
+.rightSection img{
+    height: max-content;
+    width: 80%;
+}
+.purple{
+    color: rgb(170, 95, 241);
+}
+#element{
+    color: rgb(170, 95, 241);
 }
